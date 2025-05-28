@@ -8,8 +8,14 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
-      - about_me.qmd
+      - href: about_me.qmd
+        text: About Me
+      - href: projects.qmd
+        text: Projects
+      - href: summer_plans.qmd
+        text: Summer Plans
+      - href: CV.qmd
+        text: CV
 
 format:
   html:
