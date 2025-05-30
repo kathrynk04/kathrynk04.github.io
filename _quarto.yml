@@ -22,6 +22,7 @@ format:
     theme: 
     - cosmo
     - styles.scss
+    mainfont: Outfit
     toc: true
     page-layout: full
 
