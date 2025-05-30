@@ -1,8 +1,11 @@
 ---
 title: "Kathryn Kolb"
+image: images/IMG_7252.jpg
 toc: false
 about:
   template: jolla
+  image-shape: round
+  image-width: 17em
   links:
     - text: LinkedIn
       href: www.linkedin.com/in/kathryn-kolb-39949b361
