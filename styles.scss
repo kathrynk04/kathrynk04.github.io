@@ -20,3 +20,27 @@ $link-color: $green;
 // Inline code
 $code-bg: $cream;
 $code-color: $brown;
+
+/*-- scss:rules --*/
+
+h1, h2 {
+  letter-spacing: 5px;
+  font-weight: 800; // Google fonts tells you which weights your chosen font family allows for!
+}
+
+.title {
+  color: $brown;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.green-text {
+  color: $green;
+}
+
+.navbar-brand img { 
+  max-height: 40px;
+  width: auto;
+}
