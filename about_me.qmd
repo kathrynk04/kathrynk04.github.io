@@ -1,5 +1,7 @@
 ---
 title: "About Me"
+execute: 
+  echo: false
 format: html
 ---
 <h1>Growing Up</h1>
@@ -9,6 +11,40 @@ format: html
 In middle school, I joined my school's band and played the trumpet. Through band, I met everyone who would become my closest friends throughout the years, as we spent a lot of time with each other each year in band class. In High School, it was required that everyone in band was also in the marching band, so we got to attend every football game in the fall and also participate in competitions against other marching bands in October. My school had a really band program, so we would usually do pretty well in competitions. Every other year, bands could compete to go to the State marching competition, and my band made it both years we got to compete while I was there. We placed eighth in the state my second year, and were in the top twenty my senior year. Band and especially marching band were both really big commitments that took up a lot of my time and energy, but what kept me going through the years was my friends and all of the amazing memories I got to make with them along the way.
 
 During my freshman year of high school, I started running in my free time. But, it wasn't until my junior year of high school that I decided to join the cross country team halfway through the season. While band often had challenging moments, cross country was even more difficult because at each meet, we had to race a 5k against lots of other girls, which feels like a really long time to run and ends up being pretty painful, if you push yourself. Not only was it physically challenging, it was also always mentally challenging to fight off the urge to start walking whenever I was feeling especially tired or I had gotten a cramp. However, I loved my teammates and, like my band friends, they motivated me to keep showing up to practices every day, and I got to make lots of fun memories with them as well.</p>
+---
+
+```{r message=FALSE}
+# initialize map ----
+library(tidyverse) # data wrangling & viz (with {ggplot2})
+library(plotly) # JS plots!
+library(DT) # JS tables!
+library(leaflet) # JS maps!
+library(leaflet.extras) # leaflet add-ons!
+
+site_map <- leaflet() %>% 
+  
+  # add base map tiles (use `addTiles()` for Google maps tiles, OR `addProviderTiles()` for 3rd party base maps: https://leaflet-extras.github.io/leaflet-providers/preview/) ----
+  addTiles() |> 
+  
+  # add mini map ----
+  addMiniMap(toggleDisplay = TRUE, minimized = TRUE) %>% 
+  
+  # set view over Santa Barbara Channel ----
+  setView(lng =  -96.77, lat = 33.11, zoom = 13) %>% 
+
+  # add layers control (toggle base map tiles & markers based on group IDs) ----
+  addLayersControl(
+    baseGroups = c("ESRI World Imagery", "ESRI Oceans"),
+    overlayGroups = c("MPA Sites", "Non-MPA Sites")) %>% 
+  
+  # add reset map button ----
+  leaflet.extras::addResetMapButton()
+
+# print map ----
+site_map
+```
+
+---
 
 <h1>My Plant Collection</h1>
 
