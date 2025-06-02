@@ -2,3 +2,6 @@
 title: "CV"
 format: html
 ---
+
+![CV](CV.pdf){width=1250px height=1250px}
+---

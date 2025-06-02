@@ -2,3 +2,30 @@
 title: "Summer Plans"
 format: html
 ---
+
+<h1>Classes</h1>
+
+<p>This summer, I'll be staying in Isla Vista and continuing to take classes. I've always liked taking classes during the summer because lots of my friends also stay for the summer and I like to still be productive during breaks. Also, I need to get lots of units as a double major, so I have to take summer classes to graduate within four years. This summer, I'll be taking Aquatic Food Management, Conservation Planning, Green Building, and Introduction to Geographic Information Systems and Science.</p>
+
+<p class="center">
+  <img src="images/IMG_0914.jpg" alt="Coast" width="300"/>
+  <img src="images/IMG_7191.jpg" alt="IV" width="300"/>
+</p>
+---
+
+<h1>Scuba</h1>
+
+<p>Besides classes, I will also be taking the Open Water Scuba Certification course offered by UCSB's Recreation Center. The course is only 3.5 hours twice a week for three weeks, followed by an 11 hour boat dive and then a five hour beach dive the next day. It is a quite expensive course and I will also have to buy some of my own gear, but I've heard that getting scuba certified through the Recreation Center is cheaper than getting it from most other places. Additionally, I'm really excited to have a new outdoor hobby and hopefully get to explore cool diving spots around the world!</p>
+
+---
+
+<h1>Trips</h1>
+
+<p>My last plan for the summer is that I'm potentially going on a trip to Japan with my partner. I've been wanting to learn how to ski for a while, but going skiing and especially getting skiing lessons is a lot more expensive in the United States than it is in Japan. Therefore, this trip will be another chance for me to gain a new outdoor hobby. My partner and I also both really love Japanese food, so we're excited to get to eat lots of ramen, sushi, curry, and more.
+
+I don't currently have any camping trips planned for this summer, but my camping trips are usually pretty spontaneous, so I will hopefully make some plans during the summer. I've recently been looking for camping gear on Facebook Marketplace, so once I have all the gear I need, I'm going to plan a trip as soon as possible!</p>
+
+<p class="center">
+  <img src="images/IMG_4431.jpg" alt="Camping" width="600"/>
+</p>
+---
