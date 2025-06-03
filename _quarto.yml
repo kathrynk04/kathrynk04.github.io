@@ -10,7 +10,7 @@ website:
         text: Home
       - href: about_me.qmd
         text: About Me
-      - href: projects.qmd
+      - href: posts.qmd
         text: Projects
       - href: summer_plans.qmd
         text: Summer Plans
