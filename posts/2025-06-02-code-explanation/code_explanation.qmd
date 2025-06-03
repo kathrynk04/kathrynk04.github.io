@@ -1,0 +1,13 @@
+---
+title: "Code Explanation"
+description: "My independent research project that studies how changes in soil salinity impact the chlorophyll content of pickleweed."
+author:
+  - name: Kathryn Kolb
+    url: https://kathrynk04.github.io/
+date: 06-02-2025
+citation: 
+  url: https://kathrynk04.github.io/posts/2025-06-02-code-explanation/ 
+draft: false
+echo: true
+---
+
