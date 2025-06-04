@@ -15,9 +15,8 @@ In middle school, I joined my school's band and played the trumpet. Through band
 
 During my freshman year of high school, I started running in my free time. But, it wasn't until my junior year of high school that I decided to join the cross country team halfway through the season. While band often had challenging moments, cross country was even more difficult because at each meet, we had to race a 5k against lots of other girls, which feels like a really long time to run and ends up being pretty painful, if you push yourself. Not only was it physically challenging, it was also always mentally challenging to fight off the urge to start walking whenever I was feeling especially tired or I had gotten a cramp. However, I loved my teammates and, like my band friends, they motivated me to keep showing up to practices every day, and I got to make lots of fun memories with them as well.
 
-</p>
+Here's where my hometown is on a map:</p>
 
-------------------------------------------------------------------------
 
 ```{r message=FALSE}
 # initialize map ----
@@ -69,6 +68,8 @@ However, I currently own four plants in my apartment. A joshua tree that I start
 As you can see, my joshua tree's leaves are shriveling up so it doesn't seem to be doing too well, and I think it's because it needs more sun than it can get in my east facing window. Also, the googly eyes have fallen off of my cactus.
 
 </p>
+
+---
 
 <h1>My Hobbies</h1>
 
